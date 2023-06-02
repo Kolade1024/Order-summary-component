@@ -13,9 +13,9 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 
 ## Overview
 
-- Solution URL: [solution URL](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U/hub)
+- Solution URL: [solution URL](https://www.frontendmentor.io/solutions/order-summary-component-KK3FkIqs6L)
 
-- Live Site URL: [live site URL](https://kolade1024.github.io/NFT-preview-card-component-/)
+- Live Site URL: [live site URL](https://kolade1024.github.io/Order-summary-component/)
 
 
 ### Built with
