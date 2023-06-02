@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css?family=Red+Hat+Display");
+
+
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin:0;
+}
+
+img,a,span,svg{
+    display: block;
+}
+
+/* || VARIABLES */
+
+:root{
+    /* COLOR */
+
+    --BGCOLOR: hsl(225, 100%, 94%);
+    --BTN_1:hsl(225, 100%, 94%);
+    --BTN_2:hsl(224, 23%, 55%);
+    --BTN_3: hsl(225, 100%, 98%);
+    --BTN_4:hsl(223, 47%, 23%);
+
+    /* FONT */
+    --FF:"Red Hat Display";
+    --FS:1rem;
+    --FW_1:500;
+    --FW_2:700;
+    --FW_3:900; 
+
+}
+
+body{
+   background-color: var(--BGCOLOR);
+   font-family: var(--FF);
+}
+
+
+.cont,.container,.illustration,.description,.payment{
+    width: 100%;
+}
+
+.illustration{
+    border-radius: 2rem 2rem 0 0 ;
+}
+
+main,.container,.summary,.price{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+main{
+    width: 90%;
+    margin: 2rem auto;
+    background-color: white;
+    border-radius: 2rem;
+}
+
+.description{
+    text-align: center;
+    line-height: 1.7rem;
+    font-weight:var(--FW_1);
+    color: var(--BTN_2);
+}
+
+.summary{
+    gap: 1.5rem;
+    width: 90%;
+    margin: 2rem;
+}
+
+h1{
+    font-weight: var(--FW_3);
+    color: rgb(1, 1, 33);
+    font-size: larger;
+}
+
+.plan{
+    width: 100%;
+    border-radius: 1.5rem;
+    background-color: var(--BTN_3);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 1.2rem;
+    gap: 1.5rem;
+}
+
+.change_plan{
+    margin-left:1rem;
+}
+.change_plan,.time{
+    font-weight: var(--FW_3);
+}
+.price{
+    gap:0.5rem;
+
+}
+
+.cost{
+    color: var(--BTN_2);
+}
+
+.payment{
+    border-radius: 1.5rem;
+    background-color:#382AE1;
+    color: white;
+    padding: 1.2rem;
+    text-decoration: none;
+    text-align: center;
+    font-weight: var(--FW_3);
+}
+
+.change_plan:hover{
+    color: hsla(263, 89%, 33%, 0.612);
+}
+
+.payment:hover{
+    background-color:hsla(263, 89%, 33%, 0.612) ;
+}
+.order{
+    text-decoration: none;
+    text-align: center;
+    font-weight: var(--FW_3);
+    color: var(--BTN_2);
+}
+
+.order:hover{
+    color: black;
+}
+
+@media screen and (width > 325px)
+{
+    main{
+        max-width:500px ;
+    }
+}
